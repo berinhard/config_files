@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/bernardo/rubygems-1.3.6'
+let g:netrw_dirhist_2='/home/bernardo'
+let g:netrw_dirhist_3='/home/bernardo/.virtualenvs/deressaca/src/templates'
+let g:netrw_dirhist_4='/home/bernardo/workspace/forkinrio_exercises/google-python-exercises/basic'
+let g:netrw_dirhist_5='/home/bernardo/.vim'
+let g:netrw_dirhist_6='/home/bernardo/workspace/.virtualenvs/Myfc-Profile/src/project/settings'
+let g:netrw_dirhist_7='/home/bernardo/workspace/.virtualenvs/Myfc-ID/src/project/settings'
+let g:netrw_dirhist_8='/home/bernardo/workspace/.virtualenvs/Myfc-ID/src/myfc_id.outbox'
+let g:netrw_dirhist_9='/home/bernardo/workspace/.virtualenvs/backuponline/src/project/settings'
