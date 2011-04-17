@@ -63,7 +63,6 @@ nmap <space> :call ToggleFold()<CR>
 
 syntax on
 colorscheme darkspectrum
-"colorscheme twilight2
 
 set softtabstop=4       "makes backspacing over spaced out tabs work real nice
 set expandtab           "expand tabs to spaces
@@ -75,6 +74,10 @@ set fileencodings=ucs-bom,utf-8,default,latin1
 set guifont=Monaco
 set smartindent
 set autoindent
+set showmatch
+set showcmd
+set showmode
+set ai
 
 " Show tabs and trailing whitespace visually
 if (&termencoding == "utf-8") || has("gui_running")
@@ -117,11 +120,10 @@ endfunction
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 
 set number
-set ignorecase
 set hlsearch
 set paste
-set cursorline
 
+set cursorline
 :match Search '\%>80v.\+'
 
 " Author: Bernardo Fontes <falecomigo@bernardofontes.net>
@@ -143,11 +145,36 @@ def set_breakpoint():
 
     vim.current.buffer.append(white_spaces + ipdb_breakpoint, breakpoint_line)
 
-vim.command('map <C-I> :py set_breakpoint()<cr>')
-
 def remove_breakpoints():
     op = 'g/^.*%s.*/d' % ipdb_breakpoint
     vim.command(op)
 
+def line_up():
+    current_line_number = int(vim.eval('line(".")'))
+    current_line = vim.current.line
+    dest_line_number = current_line_number - 1
+
+    if current_line_number != 1:
+        vim.current.buffer.append(current_line, dest_line_number - 1)
+        op = str(current_line_number + 1) + 'd'
+        vim.command(op)
+        vim.command(str(dest_line_number))
+
+def line_down():
+    current_line_number = int(vim.eval('line(".")'))
+    current_line = vim.current.line
+    dest_line_number = current_line_number + 1
+
+    if current_line_number != len(vim.current.buffer):
+        vim.current.buffer.append(current_line, dest_line_number)
+        op = str(current_line_number) + 'd'
+        vim.command(op)
+        vim.command(str(dest_line_number))
+
+
+vim.command('map <C-Up> :py line_up()<cr>')
+vim.command('map <C-Down> :py line_down()<cr>')
+vim.command('map <C-I> :py set_breakpoint()<cr>')
 vim.command('map <C-P> :py remove_breakpoints()<cr>')
+
 EOF
