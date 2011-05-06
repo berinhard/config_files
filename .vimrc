@@ -61,6 +61,9 @@ endfunction
 
 nmap <space> :call ToggleFold()<CR>
 
+vmap <C-S-c> :s/^/#/g <CR>
+vmap <C-S-x> :s/^#//g <CR>
+
 syntax on
 colorscheme darkspectrum
 
