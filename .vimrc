@@ -120,7 +120,7 @@ function InsertTabWrapper()
       endif
 endfunction
 
-inoremap <tab> <c-r>=InsertTabWrapper()<cr>
+inoremap <C-tab> <c-r>=InsertTabWrapper()<cr>
 
 set number
 set hlsearch
