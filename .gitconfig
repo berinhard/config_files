@@ -1,9 +1,0 @@
-[user]
-    name = Bernardo Fontes
-    email = falecomigo@bernardofontes.net
-[color]
-    diff = auto
-    status = auto
-    branch = auto
-    pager = true
-    ui = auto
