@@ -103,3 +103,15 @@ source $HOME/.git-completion.bash
 source $HOME/.git_aliases
 
 export PS1='[\u@\h \w$(__git_ps1 "(%s)")]\$ '
+
+http_proxy=""
+ftp_proxy=""
+https_proxy=""
+
+alias clear_pyc='find ./ -name "*.pyc" | xargs rm -v'
+alias cddistpackages="cd /usr/local/lib/python2.6/dist-packages"
+alias desliga="amixer -c 0 set PCM 100%-; sudo shutdown -h now"
+
+if [[ -s $HOME/.rvm/scripts/rvm ]] ; then
+    source $HOME/.rvm/scripts/rvm
+fi
