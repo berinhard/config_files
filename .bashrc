@@ -100,4 +100,6 @@ fi
 
 source $HOME/.coderc
 source $HOME/.git-completion.bash
-export PS1='\u@\h \w$(__git_ps1 "(%s)")\$ '
+source $HOME/.git_aliases
+
+export PS1='[\u@\h \w$(__git_ps1 "(%s)")]\$ '
