@@ -1,14 +1,13 @@
 map <S-Insert> <MiddleMouse>
 
-map <F2> :bp<CR>
-map <F3> :bn<CR>
+"Mapping para ligar e desligar a sintaxe
 map <F7> :syntax on<CR>
 map <F8> :syntax off<CR>
 
+"Mapping para NERDTree
 map <C-T> :NERDTreeToggle<return>
 let NERDTreeIgnore = ['\.pyc$', '\.pyo$']
-
-vmap <space> zf
+let NERDChristmasTree = 1
 
 function ToggleFold()
    if foldlevel('.') == 0
@@ -50,7 +49,7 @@ function ToggleFold()
       "execute "normal i" . l_min . "," . l . " fold"   " print debug info
 
       if l > l_min
-"         " Create the fold from l_min to l
+         " Create the fold from l_min to l
          execute l_min . "," . l . " fold"
       endif
    else
@@ -59,14 +58,15 @@ function ToggleFold()
    endif
 endfunction
 
+"Mapping para code fold
+vmap <space> zf
 nmap <space> :call ToggleFold()<CR>
-
-vmap <C-S-c> :s/^/#/g <CR>
-vmap <C-S-x> :s/^#//g <CR>
 
 syntax on
 colorscheme darkspectrum
 
+set autoread            "altera o arquivo no vim caso seja alterado por uma fonte externa
+set autoindent          "identação automática
 set softtabstop=4       "makes backspacing over spaced out tabs work real nice
 set expandtab           "expand tabs to spaces
 set shiftwidth=4
@@ -76,11 +76,14 @@ set nobackup
 set fileencodings=ucs-bom,utf-8,default,latin1
 set guifont=Monaco
 set smartindent
-set autoindent
 set showmatch
 set showcmd
 set showmode
-set ai
+set number
+set hlsearch
+set paste
+set cursorline
+:match Search '\%>80v.\+'
 
 " Show tabs and trailing whitespace visually
 if (&termencoding == "utf-8") || has("gui_running")
@@ -121,13 +124,6 @@ function InsertTabWrapper()
 endfunction
 
 inoremap <C-tab> <c-r>=InsertTabWrapper()<cr>
-
-set number
-set hlsearch
-set paste
-
-set cursorline
-:match Search '\%>80v.\+'
 
 " Author: Bernardo Fontes <falecomigo@bernardofontes.net>
 " Website: http://www.bernardofontes.net
