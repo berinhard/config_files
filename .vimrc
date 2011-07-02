@@ -178,8 +178,7 @@ vim.command('map <C-P> :py remove_breakpoints()<cr>')
 
 EOF
 
-if has("gui_running")
-  " If the current buffer has never been saved, it will have no name,
-  " call the file browser to save it, otherwise just save it.
-  :map <silent> <C-S> :if expand("%") == ""<CR>:browse confirm w<CR>:else<CR>:confirm w<CR>:endif<CR>
-endif
+map <C-S-Left> <c-w><
+map <C-S-Right> <c-w>>
+map <C-S-Up> <c-w>-
+map <C-S-Down> <c-w>+
