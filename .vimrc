@@ -3,6 +3,7 @@ map <S-Insert> <MiddleMouse>
 "Mapping para ligar e desligar a sintaxe
 map <F7> :syntax on<CR>
 map <F8> :syntax off<CR>
+map <F1> <esc>a{}<esc>i%%<esc>i<space><space><esc>ha
 
 "Mapping para NERDTree
 map <C-T> :NERDTreeToggle<return>
