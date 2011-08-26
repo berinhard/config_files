@@ -187,3 +187,8 @@ map <C-S-Left> <c-w><
 map <C-S-Right> <c-w>>
 map <C-S-Up> <c-w>-
 map <C-S-Down> <c-w>+
+
+map <silent> <A-Up> :wincmd k<CR>
+map <silent> <A-Down> :wincmd j<CR>
+map <silent> <A-Left> :wincmd h<CR>
+map <silent> <A-Right> :wincmd l<CR>
