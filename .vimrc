@@ -1,3 +1,10 @@
+if has("gui_running")
+   set guioptions-=T " disable toolbar
+   set guioptions-=m " disable menu
+   set guioptions-=r
+endif
+
+
 map <S-Insert> <MiddleMouse>
 
 "Mapping para ligar e desligar a sintaxe
