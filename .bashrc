@@ -112,6 +112,8 @@ alias clear_pyc='find ./ -name "*.pyc" | xargs rm -v'
 alias cddistpackages="cd /usr/local/lib/python2.6/dist-packages"
 alias desliga="amixer -c 0 set PCM 100%-; sudo shutdown -h now"
 alias predialvpn="source /home/bernardo/workspace/predialnet_vpn"
+alias recfullscreen="ffmpeg -f alsa -ac 2 -i pulse -f x11grab -r 30 -s 1366x768 -i :0.0 -acodec pcm_s16le -vcodec libx264 -preset ultrafast -crf 0 -threads 0"
+alias videoconverthelp="echo 'ffmpeg -i output.mkv -acodec libfaac -ab 128k -ac 2 -vcodec libx264 -preset slow -crf 22 -threads 0 our-final-product.mp4'"
 
 export PIP_DOWNLOAD_CACHE='/tmp/pip_cache'
 
