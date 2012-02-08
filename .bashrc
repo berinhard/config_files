@@ -115,6 +115,6 @@ alias predialvpn="source /home/bernardo/workspace/predialnet_vpn"
 
 export PIP_DOWNLOAD_CACHE='/tmp/pip_cache'
 
-if [[ -s $HOME/.rvm/scripts/rvm ]] ; then
-    source $HOME/.rvm/scripts/rvm
-fi
+#if [[ -s $HOME/.rvm/scripts/rvm ]] ; then
+#    source $HOME/.rvm/scripts/rvm
+#fi
