@@ -111,6 +111,7 @@ https_proxy=""
 alias clear_pyc='find ./ -name "*.pyc" | xargs rm -v'
 alias cddistpackages="cd /usr/local/lib/python2.6/dist-packages"
 alias desliga="amixer -c 0 set PCM 100%-; sudo shutdown -h now"
+alias predialvpn="source /home/bernardo/workspace/predialnet_vpn"
 
 export PIP_DOWNLOAD_CACHE='/tmp/pip_cache'
 
