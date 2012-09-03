@@ -102,22 +102,23 @@ source $HOME/.coderc
 source $HOME/.git-completion.bash
 source $HOME/.git_aliases
 
-export PS1='[\u@\h \w$(__git_ps1 "(%s)")]\$ '
 
-http_proxy=""
-ftp_proxy=""
-https_proxy=""
+export PS1='[\u@\h \w$(__git_ps1 "(%s)")]\$ '
+export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
+
+#http_proxy=""
+#ftp_proxy=""
+#https_proxy=""
 
 alias clear_pyc='find ./ -name "*.pyc" | xargs rm -v'
-alias cddistpackages="cd /usr/local/lib/python2.6/dist-packages"
-alias desliga="amixer -c 0 set PCM 100%-; sudo shutdown -h now"
-alias predialvpn="source /home/bernardo/workspace/predialnet_vpn"
-alias recfullscreen="ffmpeg -f alsa -ac 2 -i pulse -f x11grab -r 30 -s 1366x768 -i :0.0 -acodec pcm_s16le -vcodec libx264 -preset ultrafast -crf 0 -threads 0"
-alias videoconverthelp="echo 'ffmpeg -i output.mkv -acodec libfaac -ab 128k -ac 2 -vcodec libx264 -preset slow -crf 22 -threads 0 our-final-product.mp4'"
-
-export PIP_DOWNLOAD_CACHE='/tmp/pip_cache'
+alias cddistpackages="cd /usr/local/lib/python2.7/dist-packages"
 
 #if [[ -s $HOME/.rvm/scripts/rvm ]] ; then
 #    source $HOME/.rvm/scripts/rvm
 #fi
 cd $HOME
+
+alias gvim="gvim 2> /dev/null"
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+alias load_rvm="source /home/bernardo/.rvm/scripts/rvm"
