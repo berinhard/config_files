@@ -122,3 +122,4 @@ alias gvim="gvim 2> /dev/null"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 alias load_rvm="source /home/bernardo/.rvm/scripts/rvm"
+alias pipgrep="pip freeze | grep"
