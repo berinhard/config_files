@@ -113,13 +113,13 @@ export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
 alias clear_pyc='find ./ -name "*.pyc" | xargs rm -v'
 alias cddistpackages="cd /usr/local/lib/python2.7/dist-packages"
 
+# Rails RVM confs
 #if [[ -s $HOME/.rvm/scripts/rvm ]] ; then
 #    source $HOME/.rvm/scripts/rvm
 #fi
+#PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+#alias load_rvm="source /home/bernardo/.rvm/scripts/rvm"
+
 cd $HOME
-
 alias gvim="gvim 2> /dev/null"
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-alias load_rvm="source /home/bernardo/.rvm/scripts/rvm"
 alias pipgrep="pip freeze | grep"
