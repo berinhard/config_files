@@ -39,7 +39,6 @@ function work () {
     echo "source ~/.bashrc
           workon $env_name
           cdvirtualenv
-          cd src
           " > ~/.virtualenvrc
 
     bash --rcfile ~/.virtualenvrc
