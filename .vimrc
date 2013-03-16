@@ -91,6 +91,7 @@ set hlsearch
 set paste
 set cursorline
 set virtualedit=all
+set noswapfile
 set guifont=Ubuntu\ Mono\ 11,5
 :match Search '\%>80v.\+'
 
