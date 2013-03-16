@@ -82,7 +82,6 @@ set tabstop=4
 set termencoding=utf-8
 set nobackup
 set fileencodings=ucs-bom,utf-8,default,latin1
-set guifont=Monaco
 set smartindent
 set showmatch
 set showcmd
@@ -92,6 +91,7 @@ set hlsearch
 set paste
 set cursorline
 set virtualedit=all
+set guifont=Ubuntu\ Mono\ 11,5
 :match Search '\%>80v.\+'
 
 autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
