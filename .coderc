@@ -1,6 +1,4 @@
-export WORKON_HOME=$HOME/workspace/.virtualenvs
-export PATH=/usr/local/bin:$PATH
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
+export WORKON_HOME=$HOME/virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
 _fab_list(){
