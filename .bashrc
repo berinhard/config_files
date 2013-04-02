@@ -102,6 +102,7 @@ source $HOME/.coderc
 source $HOME/.git-completion.bash
 source $HOME/.git_aliases
 
+export EDITOR='/usr/bin/gvim'
 export PS1='[\u@\h \w$(__git_ps1 "(%s)")]\$ '
 export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
 
@@ -122,4 +123,4 @@ alias cddistpackages="cd /usr/local/lib/python2.7/dist-packages"
 cd $HOME
 alias gvim="gvim 2> /dev/null"
 alias pipgrep="pip freeze | grep"
-export EDITOR='/usr/bin/gvim'
+alias open="xdg-open"
