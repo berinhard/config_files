@@ -93,7 +93,7 @@ set cursorline
 set virtualedit=all
 set noswapfile
 set guifont=Ubuntu\ Mono\ 11,5
-:match Search '\%>80v.\+'
+":match Search '\%>80v.\+'
 
 autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
 autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/scripts/closetag.vim
