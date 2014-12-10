@@ -14,10 +14,6 @@ Plugin 'bling/vim-airline' " precisa instalar as fontes https://github.com/power
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-"ctrlp config
-let g:ctrlp_map = '<C-S-P>'
-let g:ctrlp_cmd = 'CtrlP'
-
 "airline config
 let g:airline_powerline_fonts = 1
 
@@ -208,11 +204,10 @@ def line_down():
         vim.command(op)
         vim.command(str(dest_line_number))
 
-
 vim.command('map <C-Up> :py line_up()<cr>')
 vim.command('map <C-Down> :py line_down()<cr>')
 vim.command('map <C-I> :py set_breakpoint()<cr>')
-vim.command('map <C-P> :py remove_breakpoints()<cr>')
+#vim.command('map <C-P> :py remove_breakpoints()<cr>')
 
 EOF
 
