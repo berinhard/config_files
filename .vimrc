@@ -7,6 +7,7 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
+Plugin 'pyflakes/pyflakes'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
