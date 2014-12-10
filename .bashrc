@@ -100,7 +100,6 @@ fi
 
 source $HOME/.coderc
 source $HOME/.git-completion.bash
-source $HOME/.git_aliases
 
 export PS1='[\u@\h \w$(__git_ps1 "(%s)")]\$ '
 export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
