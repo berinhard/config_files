@@ -8,9 +8,19 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 Plugin 'pyflakes/pyflakes'
+Plugin 'kien/ctrlp.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+"ctrlp config
+let g:ctrlp_map = '<C-S-P>'
+let g:ctrlp_cmd = 'CtrlP'
+
+"airline config
+let g:airline_powerline_fonts = 1
+
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.pyo     " MacOSX/Linux
 
 if has("gui_running")
    set guioptions-=T " disable toolbar
@@ -28,7 +38,7 @@ map <F1> <esc>a{}<esc>i%%<esc>i<space><space><esc>ha
 
 "Mapping para NERDTree
 map <C-T> :NERDTreeToggle<return>
-let NERDTreeIgnore = ['\.pyc$', '\.pyo$', 'bin$', 'lib$', 'local$', 'share$', 'include$', 'build$', 'public$']
+let NERDTreeIgnore = ['\.pyc$', '\.pyo$', 'bin$', 'local$', 'share$', 'include$', 'build$', 'public$']
 let NERDChristmasTree = 1
 
 function ToggleFold()
