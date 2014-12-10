@@ -9,6 +9,7 @@ call vundle#begin()
 
 Plugin 'pyflakes/pyflakes'
 Plugin 'kien/ctrlp.vim'
+Plugin 'bling/vim-airline' " precisa instalar as fontes https://github.com/powerline/fonts/blob/master/install.sh
 
 call vundle#end()            " required
 filetype plugin indent on    " required
