@@ -7,9 +7,12 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
-Plugin 'pyflakes/pyflakes'
+"Plugin 'pyflakes/pyflakes'
+Plugin 'gmarik/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline' " precisa instalar as fontes https://github.com/powerline/fonts/blob/master/install.sh
+Plugin 'scrooloose/syntastic'
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -17,6 +20,7 @@ filetype plugin indent on    " required
 "airline config
 let g:airline_powerline_fonts = 1
 
+let g:ycm_autoclose_preview_window_after_insertion = 1
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.pyo     " MacOSX/Linux
 
 if has("gui_running")
@@ -220,5 +224,3 @@ map <silent> <A-Up> :wincmd k<CR>
 map <silent> <A-Down> :wincmd j<CR>
 map <silent> <A-Left> :wincmd h<CR>
 map <silent> <A-Right> :wincmd l<CR>
-
-execute pathogen#infect()
