@@ -1,4 +1,5 @@
-export WORKON_HOME=$HOME/virtualenvs
+export WORKON_HOME=$HOME/.virtualenvvs
+export CODE_DIR=$HOME/envs
 source /usr/local/bin/virtualenvwrapper.sh
 
 _fab_list(){
@@ -11,7 +12,7 @@ complete -o default -o nospace -F _fab_list fab
 
 _virtualenvs()
 {
-    PROJECTS=$((cd "$WORKON_HOME"; for f in */bin/activate; do echo $f; done) 2>/dev/null | sed 's|^\./||' | sed 's|/bin/activate||' | sort)
+    PROJECTS=$((cd "$CODE_DIR"; for f in *; do echo $f; done) 2>/dev/null | sed 's|^\./||' | sed 's|/bin/activate||' | sort)
     local cur="${COMP_WORDS[COMP_CWORD]}"
     COMPREPLY=( $(compgen -W "$PROJECTS" -- ${cur}) )
 }
@@ -38,7 +39,7 @@ function work () {
 
     echo "source ~/.bashrc
           workon $env_name
-          cdvirtualenv
+          cd "$CODE_DIR/$env_name"
           " > ~/.virtualenvrc
 
     bash --rcfile ~/.virtualenvrc
