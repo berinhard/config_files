@@ -37,6 +37,7 @@ function work () {
 
     virtualenvwrapper_verify_workon_environment $env_name || return 1
 
+    export VIRTUAL_ENV_NAME=$env_name
     echo "source ~/.bashrc
           workon $env_name
           cd "$CODE_DIR/$env_name"
