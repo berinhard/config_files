@@ -122,3 +122,4 @@ cd $HOME
 alias gvim="gvim 2> /dev/null"
 alias pipgrep="pip freeze | grep"
 alias open="xdg-open"
+alias noblue="xcalib -blue 0.5 0 1 -alter"
