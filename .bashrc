@@ -116,7 +116,7 @@ alias cddistpackages="cd /usr/local/lib/python2.7/dist-packages"
 #    source $HOME/.rvm/scripts/rvm
 #fi
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-#alias load_rvm="source /home/bernardo/.rvm/scripts/rvm"
+alias load_rvm="source /home/bernardo/.rvm/scripts/rvm"
 
 cd $HOME
 alias gvim="gvim 2> /dev/null"
