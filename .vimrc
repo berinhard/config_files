@@ -118,7 +118,7 @@ set paste
 set cursorline
 set virtualedit=all
 set noswapfile
-set guifont=Ubuntu\ Mono\ 11,5
+set guifont=Monaco\ 10
 ":match Search '\%>80v.\+'
 
 autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
