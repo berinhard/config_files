@@ -22,7 +22,7 @@ filetype plugin indent on    " required
 let g:airline_powerline_fonts = 1
 
 let g:ycm_autoclose_preview_window_after_insertion = 1
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.pyo     " MacOSX/Linux
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.pyo,__pycache__    " MacOSX/Linux
 
 if has("gui_running")
    set guioptions-=T " disable toolbar
