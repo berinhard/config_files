@@ -123,6 +123,10 @@ alias gvim="gvim 2> /dev/null"
 alias pipgrep="pip freeze | grep"
 alias open="xdg-open"
 alias noblue="xcalib -blue 0.5 0 1 -alter"
+alias load_rvm="source /home/bernardo/.rvm/scripts/rvm"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+export NVM_DIR="/home/bernardo/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
