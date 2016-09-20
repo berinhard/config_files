@@ -164,58 +164,6 @@ endfunction
 
 inoremap <C-tab> <c-r>=InsertTabWrapper()<cr>
 
-" Author: Bernardo Fontes <falecomigo@bernardofontes.net>
-" Website: http://www.bernardofontes.net
-" This code is based on this one: http://www.cmdln.org/wp-content/uploads/2008/10/python_ipdb.vim
-" I worked with refactoring and it simplifies a lot the remove breakpoint feature.
-" To use this feature, you just need to copy and paste the content of this file at your .vimrc file! Enjoy!
-python << EOF
-import vim
-import re
-
-ipdb_breakpoint = 'import ipdb; ipdb.set_trace()'
-
-def set_breakpoint():
-    breakpoint_line = int(vim.eval('line(".")')) - 1
-
-    current_line = vim.current.line
-    white_spaces = re.search('^(\s*)', current_line).group(1)
-
-    vim.current.buffer.append(white_spaces + ipdb_breakpoint, breakpoint_line)
-
-def remove_breakpoints():
-    op = 'g/^.*%s.*/d' % ipdb_breakpoint
-    vim.command(op)
-
-def line_up():
-    current_line_number = int(vim.eval('line(".")'))
-    current_line = vim.current.line
-    dest_line_number = current_line_number - 1
-
-    if current_line_number != 1:
-        vim.current.buffer.append(current_line, dest_line_number - 1)
-        op = str(current_line_number + 1) + 'd'
-        vim.command(op)
-        vim.command(str(dest_line_number))
-
-def line_down():
-    current_line_number = int(vim.eval('line(".")'))
-    current_line = vim.current.line
-    dest_line_number = current_line_number + 1
-
-    if current_line_number != len(vim.current.buffer):
-        vim.current.buffer.append(current_line, dest_line_number)
-        op = str(current_line_number) + 'd'
-        vim.command(op)
-        vim.command(str(dest_line_number))
-
-vim.command('map <C-Up> :py line_up()<cr>')
-vim.command('map <C-Down> :py line_down()<cr>')
-vim.command('map <C-I> :py set_breakpoint()<cr>')
-#vim.command('map <C-P> :py remove_breakpoints()<cr>')
-
-EOF
-
 map <C-S-Left> <c-w><
 map <C-S-Right> <c-w>>
 map <C-S-Up> <c-w>-
