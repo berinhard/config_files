@@ -42,7 +42,7 @@ map <F1> <esc>a{}<esc>i%%<esc>i<space><space><esc>ha
 
 "Mapping para NERDTree
 map <C-T> :NERDTreeToggle<return>
-let NERDTreeIgnore = ['\.pyc$', '\.pyo$', 'bin$', 'local$', 'share$', 'include$', 'build$', 'public$']
+let NERDTreeIgnore = ['\.pyc$', '\.pyo$', 'bin$', 'local$', 'share$', 'include$', 'build$', '\.db$']
 let NERDChristmasTree = 1
 
 function ToggleFold()
