@@ -1,1 +1,0 @@
-sudo ifconfig ppp0 mtu 1300
