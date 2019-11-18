@@ -194,6 +194,7 @@ map <silent> <A-Down> :wincmd j<CR>
 map <silent> <A-Left> :wincmd h<CR>
 map <silent> <A-Right> :wincmd l<CR>
 
-map <C>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+map <C-X> :YcmCompleter GoTo<CR>
+map <C-A> :YcmCompleter GoToReferences<CR>
 
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$|node_modules|bin|docs|build'
