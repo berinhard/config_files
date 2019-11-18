@@ -11,17 +11,25 @@ call vundle#begin()
 "
 ""Plugin 'pyflakes/pyflakes'
 Plugin 'gmarik/Vundle.vim'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'bling/vim-airline' " precisa instalar as fontes https://github.com/powerline/fonts/blob/master/install.sh
-Plugin 'scrooloose/syntastic'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'brooth/far.vim'
 Plugin 'nvie/vim-flake8'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'ayu-theme/ayu-vim'
+Plugin 'romainl/vim-qf'
 "
 call vundle#end()            " required
-filetype plugin indent on    " required
+filetype plugin on           " required
 
 "airline config
 let g:airline_powerline_fonts = 1
+let g:airline_section_z = ''
+let g:airline_section_b = ''
 
 let g:ycm_autoclose_preview_window_after_insertion = 1
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.pyo,__pycache__    " MacOSX/Linux
@@ -42,7 +50,7 @@ map <F1> <esc>a{}<esc>i%%<esc>i<space><space><esc>ha
 
 "Mapping para NERDTree
 map <C-T> :NERDTreeToggle<return>
-let NERDTreeIgnore = ['\.pyc$', '\.pyo$', 'bin$', 'local$', 'share$', 'include$', 'build$', '\.db$']
+let NERDTreeIgnore = ['\.pyc$', '\.pyo$', 'local$', 'share$', 'include$', 'build$', '\.db$']
 let NERDChristmasTree = 1
 
 function ToggleFold()
@@ -100,6 +108,11 @@ nmap <space> :call ToggleFold()<CR>
 
 syntax on
 colorscheme darkspectrum
+set termguicolors     " enable true colors support
+"let ayucolor="light"  " for light version of theme
+"let ayucolor="dark"   " for dark version of theme
+"let ayucolor="mirage" " for mirage version of theme
+"colorscheme ayu
 
 set autoread            "altera o arquivo no vim caso seja alterado por uma fonte externa
 set autoindent          "identação automática
@@ -108,6 +121,7 @@ set expandtab           "expand tabs to spaces
 set shiftwidth=4
 set tabstop=4
 set termencoding=utf-8
+set encoding=UTF-8
 set nobackup
 set fileencodings=ucs-bom,utf-8,default,latin1
 set smartindent
@@ -120,11 +134,15 @@ set paste
 set cursorline
 set virtualedit=all
 set noswapfile
-set guifont=Ubuntu\ Mono\ 12
+"set guifont=Dank\ Mono\ Regular\ 12
+set guifont=Dank\ Mono\ Regular\ 14
+
+
 ":match Search '\%>80v.\+'
 
 autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
 autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/scripts/closetag.vim
+autocmd FileType js,jsx setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
 " Show tabs and trailing whitespace visually
 if (&termencoding == "utf-8") || has("gui_running")
@@ -175,3 +193,7 @@ map <silent> <A-Up> :wincmd k<CR>
 map <silent> <A-Down> :wincmd j<CR>
 map <silent> <A-Left> :wincmd h<CR>
 map <silent> <A-Right> :wincmd l<CR>
+
+map <C>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$|node_modules|bin|docs|build'
