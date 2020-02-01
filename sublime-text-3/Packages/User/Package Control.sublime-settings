@@ -1,0 +1,17 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Djaneiro",
+		"Emmet",
+		"MarkdownPreview",
+		"Package Control",
+		"Processing",
+		"requirementstxt",
+		"SideBarEnhancements",
+		"SublimeLinter"
+	]
+}

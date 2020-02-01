@@ -1,0 +1,1472 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3176,
+	"last_window_id": 7,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"list_fi",
+						"list_filenames_recursive"
+					],
+					[
+						"file",
+						"filenames"
+					],
+					[
+						"fil",
+						"filename"
+					],
+					[
+						"lis",
+						"listdir"
+					],
+					[
+						"SPO",
+						"SPORE_3"
+					],
+					[
+						"SPOR",
+						"SPORE_2"
+					],
+					[
+						"SP",
+						"SPORE_4"
+					],
+					[
+						"Sp",
+						"SPORE_3"
+					],
+					[
+						"Cel",
+						"Cell"
+					],
+					[
+						"bla",
+						"has_black_pixel"
+					],
+					[
+						"new_",
+						"new_y"
+					],
+					[
+						"COL",
+						"SPORE_COLOR"
+					],
+					[
+						"new",
+						"new_y"
+					],
+					[
+						"get",
+						"get_pixel"
+					],
+					[
+						"mid",
+						"mid_y"
+					],
+					[
+						"mid_",
+						"mid_x"
+					],
+					[
+						"defo",
+						"deform"
+					],
+					[
+						"agl",
+						"angle_rate"
+					],
+					[
+						"angle",
+						"angle_rate"
+					],
+					[
+						"close_",
+						"close_1"
+					],
+					[
+						"dis",
+						"dists"
+					],
+					[
+						"inter",
+						"internal_triangles"
+					],
+					[
+						"half",
+						"half_y"
+					],
+					[
+						"hal",
+						"half_x"
+					],
+					[
+						"disp",
+						"display"
+					],
+					[
+						"in",
+						"internal_triangles"
+					],
+					[
+						"tra",
+						"translate"
+					],
+					[
+						"strokeW",
+						"strokeWeight"
+					],
+					[
+						"colo",
+						"colors_range"
+					],
+					[
+						"bl",
+						"bokeh_list"
+					],
+					[
+						"radius",
+						"radius"
+					],
+					[
+						"bok",
+						"bokeh_list"
+					],
+					[
+						"rotat",
+						"rotation"
+					],
+					[
+						"ra",
+						"radius"
+					],
+					[
+						"ran",
+						"random"
+					],
+					[
+						"bg",
+						"background"
+					],
+					[
+						"boke",
+						"bokeh_list"
+					],
+					[
+						"py",
+						"py"
+					],
+					[
+						"bo",
+						"bokeh_list"
+					],
+					[
+						"BOK",
+						"bokeh_list"
+					],
+					[
+						"upd",
+						"update"
+					],
+					[
+						"variance",
+						"variance_noise"
+					],
+					[
+						"vari",
+						"variance_noise"
+					],
+					[
+						"frame",
+						"frameCount"
+					],
+					[
+						"new_p",
+						"new_polygon"
+					],
+					[
+						"ag",
+						"angles"
+					],
+					[
+						"ext",
+						"extra_variance"
+					],
+					[
+						"defor",
+						"deformed_points"
+					],
+					[
+						"va",
+						"variance_reduce"
+					],
+					[
+						"var",
+						"variance"
+					],
+					[
+						"re",
+						"regular_points"
+					],
+					[
+						"varia",
+						"variance_reduce"
+					],
+					[
+						"px",
+						"px_2"
+					],
+					[
+						"random_r",
+						"random_rot"
+					],
+					[
+						"randoM",
+						"random_rot"
+					],
+					[
+						"dist_",
+						"dist_1"
+					],
+					[
+						"rand",
+						"radians"
+					],
+					[
+						"sa",
+						"save_video_frames"
+					],
+					[
+						"noise",
+						"noise_scale"
+					],
+					[
+						"WIT",
+						"WHITE"
+					],
+					[
+						"save",
+						"save_video_frames"
+					],
+					[
+						"ve",
+						"vertex_x"
+					],
+					[
+						"ver",
+						"vertex_y"
+					],
+					[
+						"verte",
+						"vertex_x"
+					],
+					[
+						"base_",
+						"base_y"
+					],
+					[
+						"posito",
+						"positions"
+					],
+					[
+						"draw",
+						"draw_pattern"
+					],
+					[
+						"draw_p",
+						"draw_pattern"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/User/processing-py.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/processing-py.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: Ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: insta",
+						"Package Control: Install Package"
+					],
+					[
+						"instal p",
+						"Package Control: Install Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 150.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					"exit()",
+					"ls",
+					"éxit",
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/bernardo/workspace/residencia_sesc/movimento_001/movimento_001.pyde",
+				"/home/bernardo/workspace/processing.py/mode/examples/Topics/File IO/DirectoryList.pyde",
+				"/home/bernardo/workspace/processing.py/mode/examples/Topics/Cellular Automata/Spore2.pyde",
+				"/home/bernardo/workspace/processing.py/mode/examples/Topics/Cellular Automata/Spore1.pyde",
+				"/home/bernardo/workspace/sketches/s_071/s_071.pyde",
+				"/home/bernardo/workspace/sketches/s_070/s_070.pyde",
+				"/home/bernardo/workspace/sketches/s_069/s_069.pyde",
+				"/home/bernardo/workspace/sketches/s_068/s_068.pyde",
+				"/home/bernardo/workspace/sketches/s_067/s_067.pyde",
+				"/home/bernardo/workspace/sketches/workshop_01/workshop_01.pyde",
+				"/home/bernardo/workspace/sketches/s_069/s_068.pyde",
+				"/home/bernardo/workspace/sketches/s_065/s_065.pyde",
+				"/home/bernardo/workspace/sketches/s_066/s_066.pyde",
+				"/home/bernardo/workspace/sketches/s_064/save_frames.py",
+				"/home/bernardo/workspace/sketches/s_064/s_064.pyde",
+				"/home/bernardo/workspace/sketches/s_063/s_063.pyde",
+				"/home/bernardo/workspace/sketches/s_062/s_062.pyde",
+				"/home/bernardo/workspace/sketches/s_061/s_061.pyde",
+				"/home/bernardo/workspace/sketches/s_060/s_060.pyde",
+				"/home/bernardo/workspace/sketches/s_059/s_059.pyde",
+				"/home/bernardo/workspace/sketches/s_058/s_058.pyde",
+				"/home/bernardo/workspace/sketches/s_059/s_05",
+				"/home/bernardo/workspace/sketches/s_042/s_042.pyde",
+				"/home/bernardo/workspace/sketches/s_040/s_040.pyde",
+				"/home/bernardo/workspace/sketches/s_057/s_057.pyde",
+				"/home/bernardo/workspace/sketches/s_056/s_056.pyde",
+				"/home/bernardo/workspace/sketches/pybr_code/pybr_code.pyde",
+				"/home/bernardo/workspace/sketches/pybr_code/points",
+				"/home/bernardo/workspace/sketches/pybr_code/points.py",
+				"/home/bernardo/workspace/sketches/s_044/s_044.pyde",
+				"/home/bernardo/workspace/sketches/s_055/s_055.pyde",
+				"/home/bernardo/workspace/sketches/s_055/s_053.pyde",
+				"/home/bernardo/workspace/sketches/s_054/s_054.pyde",
+				"/home/bernardo/.config/sublime-text-3/Packages/User/processing-py.sublime-build",
+				"/home/bernardo/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+				"/home/bernardo/workspace/sketches/s_054/s_054.py",
+				"/home/bernardo/.config/sublime-text-3/Packages/User/ActualVim.sublime-settings",
+				"/home/bernardo/workspace/sketches/example.py",
+				"/home/bernardo/workspace/sketches/example"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"getpix",
+					"move",
+					"spore1",
+					"black:",
+					"&&",
+					";",
+					"&&",
+					"spore4",
+					"spore3",
+					"spore2",
+					"else if",
+					"NUM_CEL",
+					"is_in",
+					"draw",
+					"save_video_frames",
+					"MIN_RAD",
+					"random",
+					"color",
+					"100",
+					"radiu",
+					"fill",
+					"print",
+					"regular_polygon",
+					"deform",
+					"save_video_frames",
+					"ellip",
+					"positions",
+					"50"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"get_pixel",
+					"self.move",
+					"SPORE_1",
+					"BLACK:",
+					"and",
+					"",
+					"and",
+					"SPORE_4",
+					"SPORE_$",
+					"SPORE_3",
+					"SPORE_2",
+					"elif",
+					"random_polygon",
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 353.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/User/processing-py.sublime-build",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"draw_",
+						"draw_squares"
+					],
+					[
+						"min",
+						"min_r"
+					],
+					[
+						"max_",
+						"max_r"
+					],
+					[
+						"strko",
+						"strokeWeight"
+					],
+					[
+						"draw",
+						"draw_lines"
+					],
+					[
+						"dra",
+						"drawer_3"
+					],
+					[
+						"fin",
+						"finished"
+					],
+					[
+						"rano",
+						"random_line"
+					],
+					[
+						"dr",
+						"draw_at_center"
+					],
+					[
+						"angle",
+						"angle_rate"
+					],
+					[
+						"ang",
+						"angle_rate"
+					],
+					[
+						"save_",
+						"save_video_frames"
+					],
+					[
+						"BLAC",
+						"BLACK_SUN"
+					],
+					[
+						"anglE",
+						"angle_rotation"
+					],
+					[
+						"n_s",
+						"n_sides"
+					],
+					[
+						"n_side",
+						"n_sides_children"
+					],
+					[
+						"n",
+						"n_sides"
+					],
+					[
+						"col",
+						"col_size"
+					],
+					[
+						"wak",
+						"walking_distance"
+					],
+					[
+						"walking_dista",
+						"walking_distance"
+					],
+					[
+						"spli",
+						"splitable_lines"
+					],
+					[
+						"sp",
+						"splitable_lines"
+					],
+					[
+						"ler",
+						"lerp_index"
+					],
+					[
+						"star",
+						"start_pos"
+					],
+					[
+						"Spl",
+						"SplitableLine"
+					],
+					[
+						"WHITE",
+						"WHITE_WITH_ALPHA"
+					],
+					[
+						"walk",
+						"walking_distance"
+					],
+					[
+						"wal",
+						"walking_distance"
+					],
+					[
+						"paral",
+						"paralel_lines"
+					],
+					[
+						"move_",
+						"move_x"
+					],
+					[
+						"move",
+						"move_y"
+					],
+					[
+						"deform",
+						"deformations"
+					],
+					[
+						"CL",
+						"COLORS"
+					],
+					[
+						"angl",
+						"angle_range"
+					],
+					[
+						"save",
+						"saveFrame"
+					],
+					[
+						"cen",
+						"center_x"
+					],
+					[
+						"cent",
+						"center_y"
+					],
+					[
+						"center",
+						"center_x"
+					],
+					[
+						"ra",
+						"radius"
+					],
+					[
+						"dis",
+						"dist_y"
+					],
+					[
+						"edge",
+						"edge_2"
+					],
+					[
+						"edg",
+						"edge_1"
+					],
+					[
+						"ed",
+						"edge_2"
+					],
+					[
+						"foll",
+						"followers"
+					],
+					[
+						"dist_",
+						"dist_x"
+					],
+					[
+						"fol",
+						"follower"
+					],
+					[
+						"random",
+						"random_v"
+					],
+					[
+						"BACK",
+						"BLACK"
+					],
+					[
+						"si",
+						"single_line_size"
+					],
+					[
+						"y",
+						"y_range"
+					],
+					[
+						"spac",
+						"space"
+					],
+					[
+						"lines_",
+						"lines_num"
+					],
+					[
+						"lies",
+						"lines_num"
+					],
+					[
+						"num",
+						"number_of_lines"
+					],
+					[
+						"line_s",
+						"line_spacing"
+					],
+					[
+						"col_",
+						"col_x_range"
+					],
+					[
+						"curr",
+						"current_cell"
+					],
+					[
+						"curren",
+						"current_path"
+					],
+					[
+						"curre",
+						"current_cell"
+					],
+					[
+						"cur",
+						"current_path"
+					],
+					[
+						"ste",
+						"steps"
+					],
+					[
+						"sta",
+						"start_x"
+					],
+					[
+						"start_",
+						"start_y"
+					],
+					[
+						"ln",
+						"line_color"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"list_fi",
+						"list_filenames_recursive"
+					],
+					[
+						"file",
+						"filenames"
+					],
+					[
+						"fil",
+						"filename"
+					],
+					[
+						"lis",
+						"listdir"
+					],
+					[
+						"SPO",
+						"SPORE_3"
+					],
+					[
+						"SPOR",
+						"SPORE_2"
+					],
+					[
+						"SP",
+						"SPORE_4"
+					],
+					[
+						"Sp",
+						"SPORE_3"
+					],
+					[
+						"Cel",
+						"Cell"
+					],
+					[
+						"bla",
+						"has_black_pixel"
+					],
+					[
+						"new_",
+						"new_y"
+					],
+					[
+						"COL",
+						"SPORE_COLOR"
+					],
+					[
+						"new",
+						"new_y"
+					],
+					[
+						"get",
+						"get_pixel"
+					],
+					[
+						"mid",
+						"mid_y"
+					],
+					[
+						"mid_",
+						"mid_x"
+					],
+					[
+						"defo",
+						"deform"
+					],
+					[
+						"agl",
+						"angle_rate"
+					],
+					[
+						"close_",
+						"close_1"
+					],
+					[
+						"inter",
+						"internal_triangles"
+					],
+					[
+						"half",
+						"half_y"
+					],
+					[
+						"hal",
+						"half_x"
+					],
+					[
+						"disp",
+						"display"
+					],
+					[
+						"in",
+						"internal_triangles"
+					],
+					[
+						"tra",
+						"translate"
+					],
+					[
+						"strokeW",
+						"strokeWeight"
+					],
+					[
+						"colo",
+						"colors_range"
+					],
+					[
+						"bl",
+						"bokeh_list"
+					],
+					[
+						"radius",
+						"radius"
+					],
+					[
+						"bok",
+						"bokeh_list"
+					],
+					[
+						"rotat",
+						"rotation"
+					],
+					[
+						"ran",
+						"random"
+					],
+					[
+						"bg",
+						"background"
+					],
+					[
+						"boke",
+						"bokeh_list"
+					],
+					[
+						"py",
+						"py"
+					],
+					[
+						"bo",
+						"bokeh_list"
+					],
+					[
+						"BOK",
+						"bokeh_list"
+					],
+					[
+						"upd",
+						"update"
+					],
+					[
+						"variance",
+						"variance_noise"
+					],
+					[
+						"vari",
+						"variance_noise"
+					],
+					[
+						"frame",
+						"frameCount"
+					],
+					[
+						"new_p",
+						"new_polygon"
+					],
+					[
+						"ag",
+						"angles"
+					],
+					[
+						"ext",
+						"extra_variance"
+					],
+					[
+						"defor",
+						"deformed_points"
+					],
+					[
+						"va",
+						"variance_reduce"
+					],
+					[
+						"var",
+						"variance"
+					],
+					[
+						"re",
+						"regular_points"
+					],
+					[
+						"varia",
+						"variance_reduce"
+					],
+					[
+						"px",
+						"px_2"
+					],
+					[
+						"random_r",
+						"random_rot"
+					],
+					[
+						"randoM",
+						"random_rot"
+					],
+					[
+						"rand",
+						"radians"
+					],
+					[
+						"sa",
+						"save_video_frames"
+					],
+					[
+						"noise",
+						"noise_scale"
+					],
+					[
+						"WIT",
+						"WHITE"
+					],
+					[
+						"ve",
+						"vertex_x"
+					],
+					[
+						"ver",
+						"vertex_y"
+					],
+					[
+						"verte",
+						"vertex_x"
+					],
+					[
+						"base_",
+						"base_y"
+					],
+					[
+						"posito",
+						"positions"
+					],
+					[
+						"draw_p",
+						"draw_pattern"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				],
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/User/processing-py.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/User/processing-py.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"Package Control: remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: Ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: insta",
+						"Package Control: Install Package"
+					],
+					[
+						"instal p",
+						"Package Control: Install Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ins",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 150.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					"exit()",
+					"ls",
+					"éxit",
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/bernardo/Sketches/s_087/s_087.pyde",
+				"/home/bernardo/Sketches/s_089/s_089.pyde",
+				"/home/bernardo/Sketches/s_090/s_090.pyde",
+				"/home/bernardo/Sketches/s_090/s_0",
+				"/home/bernardo/Sketches/s_088/s_088.pyde",
+				"/home/bernardo/Sketches/s_088/s_087",
+				"/home/bernardo/Sketches/s_088/s_00",
+				"/home/bernardo/Sketches/s_086/s_086.pyde",
+				"/home/bernardo/Sketches/s_085/s_085.pyde",
+				"/home/bernardo/Sketches/s_083/s_083.pyde",
+				"/home/bernardo/Sketches/s_084/s_083.pyde",
+				"/home/bernardo/Sketches/s_084/s_084.pyde",
+				"/home/bernardo/Sketches/s_082/s_082.pyde",
+				"/home/bernardo/Sketches/s_079/s_079.pyde",
+				"/home/bernardo/Sketches/s_037/s_037.pyde",
+				"/home/bernardo/Sketches/s_056/s_056.pyde",
+				"/home/bernardo/Sketches/s_081/s_081.pyde",
+				"/home/bernardo/Sketches/s_037/lines.py",
+				"/home/bernardo/Sketches/s_073/s_073.pyde",
+				"/home/bernardo/Sketches/plotinha/s_001.pyde",
+				"/home/bernardo/Sketches/s_014/s_014/s_014.pyde",
+				"/home/bernardo/Sketches/s_078/s_078.pyde",
+				"/home/bernardo/Sketches/s_080/s_080.pyde",
+				"/home/bernardo/Sketches/gcode_export/example.pyde",
+				"/home/bernardo/Sketches/s_079/s_071.pyde",
+				"/home/bernardo/workspace/residencia_sesc/movimento_001/movimento_001.pyde",
+				"/home/bernardo/workspace/residencia_sesc/movimento_002/movimento_002.pyde",
+				"/home/bernardo/workspace/sketches/gcode_export/example.pyde",
+				"/home/bernardo/workspace/sketches/s_077/s_077.pyde",
+				"/home/bernardo/workspace/sketches/s_076/s_076.pyde",
+				"/home/bernardo/workspace/sketches/s_071/s_071.pyde",
+				"/home/bernardo/workspace/sketches/s_072/s_072.pyde",
+				"/home/bernardo/workspace/sketches/s_073/s_073.pyde",
+				"/home/bernardo/workspace/sketches/s_074/s_074.pyde",
+				"/home/bernardo/workspace/sketches/s_075/s_075.pyde",
+				"/home/bernardo/workspace/sketches/s_074/s_074/s_074.pyde",
+				"/home/bernardo/workspace/residencia_sesc/movimento_001/sketch.js",
+				"/home/bernardo/workspace/sketches/s_014/s_014/s_014.pyde",
+				"/home/bernardo/workspace/sketches/s_034/s_034.pyde",
+				"/home/bernardo/workspace/sketches/s_034/s_034_settings.pyde",
+				"/home/bernardo/workspace/processing.py/mode/examples/Topics/File IO/DirectoryList.pyde",
+				"/home/bernardo/workspace/processing.py/mode/examples/Topics/Cellular Automata/Spore2.pyde",
+				"/home/bernardo/workspace/processing.py/mode/examples/Topics/Cellular Automata/Spore1.pyde",
+				"/home/bernardo/workspace/sketches/s_070/s_070.pyde",
+				"/home/bernardo/workspace/sketches/s_069/s_069.pyde",
+				"/home/bernardo/workspace/sketches/s_068/s_068.pyde",
+				"/home/bernardo/workspace/sketches/s_067/s_067.pyde",
+				"/home/bernardo/workspace/sketches/workshop_01/workshop_01.pyde",
+				"/home/bernardo/workspace/sketches/s_069/s_068.pyde",
+				"/home/bernardo/workspace/sketches/s_065/s_065.pyde",
+				"/home/bernardo/workspace/sketches/s_066/s_066.pyde",
+				"/home/bernardo/workspace/sketches/s_064/save_frames.py",
+				"/home/bernardo/workspace/sketches/s_064/s_064.pyde",
+				"/home/bernardo/workspace/sketches/s_063/s_063.pyde",
+				"/home/bernardo/workspace/sketches/s_062/s_062.pyde",
+				"/home/bernardo/workspace/sketches/s_061/s_061.pyde",
+				"/home/bernardo/workspace/sketches/s_060/s_060.pyde",
+				"/home/bernardo/workspace/sketches/s_059/s_059.pyde",
+				"/home/bernardo/workspace/sketches/s_058/s_058.pyde",
+				"/home/bernardo/workspace/sketches/s_059/s_05",
+				"/home/bernardo/workspace/sketches/s_042/s_042.pyde",
+				"/home/bernardo/workspace/sketches/s_040/s_040.pyde",
+				"/home/bernardo/workspace/sketches/s_057/s_057.pyde",
+				"/home/bernardo/workspace/sketches/s_056/s_056.pyde",
+				"/home/bernardo/workspace/sketches/pybr_code/pybr_code.pyde",
+				"/home/bernardo/workspace/sketches/pybr_code/points",
+				"/home/bernardo/workspace/sketches/pybr_code/points.py",
+				"/home/bernardo/workspace/sketches/s_044/s_044.pyde",
+				"/home/bernardo/workspace/sketches/s_055/s_055.pyde",
+				"/home/bernardo/workspace/sketches/s_055/s_053.pyde",
+				"/home/bernardo/workspace/sketches/s_054/s_054.pyde",
+				"/home/bernardo/.config/sublime-text-3/Packages/User/processing-py.sublime-build",
+				"/home/bernardo/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+				"/home/bernardo/workspace/sketches/s_054/s_054.py",
+				"/home/bernardo/.config/sublime-text-3/Packages/User/ActualVim.sublime-settings",
+				"/home/bernardo/workspace/sketches/example.py",
+				"/home/bernardo/workspace/sketches/example"
+			],
+			"find":
+			{
+				"height": 27.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"print",
+					"site",
+					"BLACK =",
+					"backg",
+					"back",
+					"NUM_SID",
+					"random",
+					"stroke",
+					"add_new",
+					"add_new_",
+					"width",
+					"stroke",
+					")",
+					"20",
+					"red_inde",
+					"red_in",
+					"strokew",
+					"offset",
+					"line",
+					"stroke",
+					"current_path_length",
+					"cells_st",
+					"cells_stak",
+					"getpix",
+					"move",
+					"spore1",
+					"black:",
+					"&&",
+					";",
+					"&&",
+					"spore4",
+					"spore3",
+					"spore2",
+					"else if",
+					"NUM_CEL",
+					"is_in",
+					"draw",
+					"save_video_frames",
+					"MIN_RAD",
+					"random",
+					"color",
+					"100",
+					"radiu",
+					"fill",
+					"print",
+					"regular_polygon",
+					"deform",
+					"save_video_frames",
+					"ellip",
+					"positions",
+					"50"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"get_pixel",
+					"self.move",
+					"SPORE_1",
+					"BLACK:",
+					"and",
+					"",
+					"and",
+					"SPORE_4",
+					"SPORE_$",
+					"SPORE_3",
+					"SPORE_2",
+					"elif",
+					"random_polygon",
+					""
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 261.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/User/processing-py.sublime-build",
+			"position": "0,1,0,0,0,0,0,0,0,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 7,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
