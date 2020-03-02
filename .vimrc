@@ -10,8 +10,10 @@ call vundle#begin()
 ""call vundle#begin('~/some/path/here')
 "
 ""Plugin 'pyflakes/pyflakes'
+Plugin 'preservim/nerdtree'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'tacahiroy/ctrlp-funky'
 Plugin 'bling/vim-airline' " precisa instalar as fontes https://github.com/powerline/fonts/blob/master/install.sh
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'Valloric/YouCompleteMe'
@@ -22,6 +24,12 @@ Plugin 'mxw/vim-jsx'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'ayu-theme/ayu-vim'
 Plugin 'romainl/vim-qf'
+Plugin 'Raimondi/delimitMate'
+Plugin 'RRethy/vim-illuminate'
+Plugin 'ryanoasis/vim-devicons'
+Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plugin 'markonm/traces.vim'
+Plugin 'dyng/ctrlsf.vim'
 "
 call vundle#end()            " required
 filetype plugin on           " required
@@ -52,6 +60,11 @@ map <F1> <esc>a{}<esc>i%%<esc>i<space><space><esc>ha
 map <C-T> :NERDTreeToggle<return>
 let NERDTreeIgnore = ['\.pyc$', '\.pyo$', 'local$', 'share$', 'include$', 'build$', '\.db$']
 let NERDChristmasTree = 1
+let g:NERDTreeFileExtensionHighlightFullName = 1
+let g:NERDTreeExactMatchHighlightFullName = 1
+let g:NERDTreePatternMatchHighlightFullName = 1
+let g:NERDTreeHighlightFolders = 1 " enables folder icon highlighting using exact match
+let g:NERDTreeHighlightFoldersFullName = 1 " highlights the folder name
 
 function ToggleFold()
    if foldlevel('.') == 0
@@ -134,8 +147,7 @@ set paste
 set cursorline
 set virtualedit=all
 set noswapfile
-"set guifont=Dank\ Mono\ Regular\ 12
-set guifont=Dank\ Mono\ Regular\ 14
+set guifont=Ubuntu\ Mono\ Regular\ 14
 
 
 ":match Search '\%>80v.\+'
