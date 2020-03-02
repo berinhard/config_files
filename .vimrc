@@ -9,7 +9,7 @@ call vundle#begin()
 "" alternatively, pass a path where Vundle should install plugins
 ""call vundle#begin('~/some/path/here')
 "
-""Plugin 'pyflakes/pyflakes'
+"Plugin 'pyflakes/pyflakes'
 Plugin 'preservim/nerdtree'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -147,7 +147,9 @@ set paste
 set cursorline
 set virtualedit=all
 set noswapfile
+"set guifont=Dank\ Mono\ Regular\ 12
 set guifont=Ubuntu\ Mono\ Regular\ 14
+"set guifont=Ubuntu\ Nerd\ Font\ Mono\ 14
 
 
 ":match Search '\%>80v.\+'
@@ -177,6 +179,7 @@ map <C-M> mvggVG:s/<C-V><CR>//g<CR>`v
 
 "http://vim.wikia.com/wiki/Remove_unwanted_spaces#Automatically_removing_all_trailing_whitespace
 autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufWritePost *.py call flake8#Flake8()
 
 "rot13 dmca-grade encryption
 "this is useful to obfuscate whatever it is that you're working on temporarily
@@ -210,3 +213,6 @@ map <C-X> :YcmCompleter GoTo<CR>
 map <C-A> :YcmCompleter GoToReferences<CR>
 
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$|node_modules|bin|docs|build'
+
+let mapleader=","
+nnoremap <leader>W :CtrlSF
