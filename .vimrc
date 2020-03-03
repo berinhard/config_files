@@ -58,7 +58,7 @@ map <F1> <esc>a{}<esc>i%%<esc>i<space><space><esc>ha
 
 "Mapping para NERDTree
 map <C-T> :NERDTreeToggle<return>
-let NERDTreeIgnore = ['\.pyc$', '\.pyo$', 'local$', 'share$', 'include$', 'build$', '\.db$']
+let NERDTreeIgnore = ['\.pyc$', '\.pyo$', 'local$', 'share$', 'include$', 'build$', '\.db$', '__pycache__$', 'node_modules$']
 let NERDChristmasTree = 1
 let g:NERDTreeFileExtensionHighlightFullName = 1
 let g:NERDTreeExactMatchHighlightFullName = 1
