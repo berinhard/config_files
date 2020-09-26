@@ -110,6 +110,8 @@ export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
 
 alias clear_pyc='find ./ -name "*.pyc" | xargs rm -v'
 alias cddistpackages="cd /usr/local/lib/python2.7/dist-packages"
+alias cdsamples="cd /home/bernardo/.local/share/SuperCollider/custom_samples"
+
 
 # Rails RVM confs
 #if [[ -s $HOME/.rvm/scripts/rvm ]] ; then
@@ -127,7 +129,25 @@ alias load_rvm="source /home/bernardo/.rvm/scripts/rvm"
 alias xcopy="xclip -sel clip"
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+#export PATH="/usr/local/heroku/bin:$PATH"
 
-export NVM_DIR="/home/bernardo/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+# ffmpeg -framerate 30 -pattern_type glob -i '*.png' -c:v libx264 -r 30 -pix_fmt yuv420p out.mp4
+# ffmpeg -ss 00:00:00 -t 00:00:20 -i out_youtube.mp4 out.mp4
+
+alias processing-py="/home/bernardo/libs/processing.py-3017-linux64/processing-py.sh"
+alias cdberin="cd /home/bernardo/Processing/sketchbook/libraries/site-packages/berin/"
+
+JAVA_HOME='/usr/lib/jvm/java-8-openjdk-amd64/'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+alias sketches="/home/bernardo/sketches/sketches.py"
+alias pvim="vim -g -u /home/bernardo/.vimrc-processing"
+
+export PYENV_ROOT="$HOME/software/pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
