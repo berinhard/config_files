@@ -12,3 +12,5 @@
 [gui]
 	fontui = -family \"Ubuntu Mono\" -size 12 -weight normal -slant roman -underline 0 -overstrike 0
 	fontdiff = -family \"Ubuntu Mono\" -size 12 -weight normal -slant roman -underline 0 -overstrike 0
+[init]
+	defaultBranch = main
