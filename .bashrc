@@ -99,7 +99,6 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 source $HOME/.coderc
-source $HOME/.git-completion.bash
 
 export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
 
@@ -108,7 +107,6 @@ export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
 #https_proxy=""
 
 alias clear_pyc='find ./ -name "*.pyc" | xargs rm -v'
-alias cddistpackages="cd /usr/local/lib/python2.7/dist-packages"
 alias cdsamples="cd /home/bernardo/.local/share/SuperCollider/custom_samples"
 
 
@@ -123,7 +121,6 @@ cd $HOME
 alias gvim="gvim 2> /dev/null"
 alias pipgrep="pip freeze | grep"
 alias open="xdg-open"
-alias noblue="xcalib -blue 0.5 0 1 -alter"
 alias load_rvm="source /home/bernardo/.rvm/scripts/rvm"
 alias xcopy="xclip -sel clip"
 
@@ -136,12 +133,9 @@ alias xcopy="xclip -sel clip"
 alias processing-py="/home/bernardo/libs/processing.py-3017-linux64/processing-py.sh"
 alias cdberin="cd /home/bernardo/Processing/sketchbook/libraries/site-packages/berin/"
 
-JAVA_HOME='/usr/lib/jvm/java-8-openjdk-amd64/'
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 
 alias sketches="/home/bernardo/sketches/sketches.py"
 alias pvim="vim -g -u /home/bernardo/.vimrc-processing"
