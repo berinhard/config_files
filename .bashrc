@@ -119,7 +119,7 @@ alias load_rvm="source /home/bernardo/.rvm/scripts/rvm"
 
 cd $HOME
 alias gvim="gvim 2> /dev/null"
-alias pipgrep="pip freeze | grep"
+alias pipgrep="pip3 freeze | grep"
 alias open="xdg-open"
 alias load_rvm="source /home/bernardo/.rvm/scripts/rvm"
 alias xcopy="xclip -sel clip"
@@ -130,7 +130,7 @@ alias xcopy="xclip -sel clip"
 # ffmpeg -framerate 30 -pattern_type glob -i '*.png' -c:v libx264 -r 30 -pix_fmt yuv420p out.mp4
 # ffmpeg -ss 00:00:00 -t 00:00:20 -i out_youtube.mp4 out.mp4
 
-alias processing-py="/home/bernardo/libs/processing.py-3017-linux64/processing-py.sh"
+alias processing-py="/home/bernardo/src/processing.py-3056-linux64/processing-py.sh"
 alias cdberin="cd /home/bernardo/Processing/sketchbook/libraries/site-packages/berin/"
 
 export NVM_DIR="$HOME/.nvm"
