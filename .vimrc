@@ -16,7 +16,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tacahiroy/ctrlp-funky'
 Plugin 'bling/vim-airline' " precisa instalar as fontes https://github.com/powerline/fonts/blob/master/install.sh
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'ycm-core/YouCompleteMe'
 Plugin 'brooth/far.vim'
 Plugin 'nvie/vim-flake8'
 Plugin 'pangloss/vim-javascript'
@@ -47,6 +47,9 @@ if has("gui_running")
    set guioptions-=T " disable toolbar
    set guioptions-=m " disable menu
    set guioptions-=r
+   autocmd StdinReadPre * let s:std_in=1
+   autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+   autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 endif
 
 
