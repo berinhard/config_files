@@ -1,3 +1,4 @@
+export VIRTUALENVWRAPPER_PYTHON=`which python3`
 export WORKON_HOME=$HOME/.virtualenvs
 export CODE_DIR=$HOME/envs
 source /usr/local/bin/virtualenvwrapper.sh
