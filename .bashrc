@@ -131,13 +131,13 @@ alias xcopy="xclip -sel clip"
 # ffmpeg -ss 00:00:00 -t 00:00:20 -i out_youtube.mp4 out.mp4
 
 alias processing-py="/home/bernardo/src/processing.py-3056-linux64/processing-py.sh"
-alias cdberin="cd /home/bernardo/Processing/sketchbook/libraries/site-packages/berin/"
+alias cdberin="cd /home/bernardo/sketchbook/libraries/site-packages/berin/"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias sketches="/home/bernardo/sketches/sketches.py"
+alias sketches="/home/bernardo/envs/sketches/sketches.py"
 alias pvim="vim -g -u /home/bernardo/.vimrc-processing"
 
 # ref de instação: https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer
