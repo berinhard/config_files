@@ -139,6 +139,7 @@ export NVM_DIR="$HOME/.nvm"
 
 alias sketches="/home/bernardo/envs/sketches/sketches.py"
 alias pvim="vim -g -u /home/bernardo/.vimrc-processing"
+alias python="python3"
 
 # ref de instação: https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer
 export PYENV_ROOT="$HOME/.pyenv"
