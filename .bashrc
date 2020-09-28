@@ -146,3 +146,9 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+
+# helper commands:
+# find DIR_PATH -type f -exec chmod 644 {} +
+# find DIR_PATH -type d -exec chmod 755 {} +
+
