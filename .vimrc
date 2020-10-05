@@ -41,7 +41,7 @@ let g:airline_section_z = ''
 let g:airline_section_b = ''
 
 let g:ycm_autoclose_preview_window_after_insertion = 1
-set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.pyo,__pycache__    " MacOSX/Linux
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.pyo,__pycache__,*.sqlite3    " MacOSX/Linux
 
 if has("gui_running")
    set guioptions-=T " disable toolbar
@@ -62,7 +62,7 @@ map <F1> <esc>a{}<esc>i%%<esc>i<space><space><esc>ha
 
 "Mapping para NERDTree
 map <C-T> :NERDTreeToggle<return>
-let NERDTreeIgnore = ['\.pyc$', '\.pyo$', 'share$', 'include$', 'build$', '\.db$', '__pycache__$', 'node_modules$']
+let NERDTreeIgnore = ['\.pyc$', '\.pyo$', 'share$', 'include$', 'build$', '\.db$', '__pycache__$', 'node_modules$', '\.sqlite3$']
 let NERDChristmasTree = 1
 let g:NERDTreeFileExtensionHighlightFullName = 1
 let g:NERDTreeExactMatchHighlightFullName = 1
@@ -156,7 +156,9 @@ set guifont=Ubuntu\ Mono\ Regular\ 14
 "set guifont=Ubuntu\ Nerd\ Font\ Mono\ 14
 
 
-":match Search '\%>80v.\+'
+if !has("gui_running")
+    :match Search '\%>80v.\+'
+endif
 
 autocmd FileType html,htmldjango,jinjahtml,eruby,mako let b:closetag_html_style=1
 autocmd FileType html,xhtml,xml,htmldjango,jinjahtml,eruby,mako source ~/.vim/scripts/closetag.vim
