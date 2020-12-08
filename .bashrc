@@ -137,9 +137,23 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+enter_directory() {
+  if [[ $PWD == $PREV_PWD ]]; then
+    return
+  fi
+
+  PREV_PWD=$PWD
+  [[ -f ".nvmrc" ]] && nvm use
+}
+
+export PROMPT_COMMAND=enter_directory
+
+
 alias sketches="/home/bernardo/envs/sketches/sketches.py"
 alias pvim="vim -g -u /home/bernardo/.vimrc-processing"
 alias python="python3"
+
+eval "$(direnv hook bash)"
 
 # ref de instação: https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer
 export PYENV_ROOT="$HOME/.pyenv"
@@ -152,3 +166,4 @@ eval "$(pyenv virtualenv-init -)"
 # find DIR_PATH -type f -exec chmod 644 {} +
 # find DIR_PATH -type d -exec chmod 755 {} +
 
+SKETCHBOOK_DIR="/home/bernardo/envs/pyp5js/docs/examples/"

@@ -40,7 +40,9 @@ function work () {
     echo "source ~/.bashrc
           pyenv activate $env_name
           cd "$CODE_DIR/$env_name"
+		  direnv allow .
           " > ~/.virtualenvrc
+
 
     bash --rcfile ~/.virtualenvrc
 }
