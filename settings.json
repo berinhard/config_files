@@ -1,0 +1,38 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "trailing",
+    "editor.wordWrapColumn": 100,
+    "javascript.implicitProjectConfig.checkJs": true,
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.suggest.completeFunctionCalls": true,
+    "javascript.validate.enable": true,
+    "workbench.colorTheme": "Dracula Soft",
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.foldfix": true,
+    "vim.leader": "\\",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<Space>"],
+            "commands": ["editor.toggleFold"],
+        },
+    ],
+    "window.zoomLevel": 0,
+
+}
