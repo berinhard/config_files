@@ -1,5 +1,11 @@
 let g:ycm_python_binary_path = '/usr/bin/python3'
 
+let g:NERDTreeDirArrows = 1
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+let g:NERDTreeNodeDelimiter = "\u00a0"
+let g:NERDTreeGlyphReadOnly = "RO"
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
