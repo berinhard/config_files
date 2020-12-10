@@ -26,7 +26,7 @@ Plugin 'ayu-theme/ayu-vim'
 Plugin 'romainl/vim-qf'
 Plugin 'Raimondi/delimitMate'
 Plugin 'RRethy/vim-illuminate'
-Plugin 'ryanoasis/vim-devicons'
+"Plugin 'ryanoasis/vim-devicons'
 Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plugin 'markonm/traces.vim'
 Plugin 'dyng/ctrlsf.vim'
@@ -135,10 +135,8 @@ set autoread            "altera o arquivo no vim caso seja alterado por uma font
 set autoindent          "identação automática
 set softtabstop=4       "makes backspacing over spaced out tabs work real nice
 set expandtab           "expand tabs to spaces
-set smarttab
-set cindent
 set shiftwidth=4
-"set tabstop=4
+set tabstop=4
 set termencoding=utf-8
 set encoding=UTF-8
 set nobackup
@@ -156,7 +154,6 @@ set noswapfile
 "set guifont=Dank\ Mono\ Regular\ 12
 set guifont=Ubuntu\ Mono\ Regular\ 14
 "set guifont=Ubuntu\ Nerd\ Font\ Mono\ 14
-"set guifont=Ubuntu\ Mono\ Regular\ 22
 
 
 if !has("gui_running")
@@ -228,16 +225,3 @@ let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$|node_modules|bin|docs|build'
 
 let mapleader=","
 nnoremap <leader>W :CtrlSF
-
-func! s:SetBreakpoint()
-    cal append('.', repeat(' ', strlen(matchstr(getline('.'), '^\s*'))) . 'import ipdb; ipdb.set_trace()')
-endf
-
-func! s:RemoveBreakpoint()
-    exe 'silent! g/^\s*import\sipdb\;\?\n*\s*ipdb.set_trace()/d'
-endf
-
-func! s:ToggleBreakpoint()
-    if getline('.')=~#'^\s*import\sipdb' | cal s:RemoveBreakpoint() | el | cal s:SetBreakpoint() | en
-endf
-nnoremap <F6> :call <SID>ToggleBreakpoint()<CR>
