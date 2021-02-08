@@ -36,13 +36,16 @@ function work () {
         return 1
     fi
 
-    export VIRTUAL_ENV_NAME=$env_name
-    echo "source ~/.bashrc
-          pyenv activate $env_name
-          cd "$CODE_DIR/$env_name"
-		  direnv allow .
-          " > ~/.virtualenvrc
+    if [[ -d "$CODE_DIR/$env_name" ]] ; then
+      export VIRTUAL_ENV_NAME=$env_name
+      echo "source ~/.bashrc
+            pyenv activate $env_name
+            cd "$CODE_DIR/$env_name"
+            direnv allow .
+            " > ~/.virtualenvrc
 
-
-    bash --rcfile ~/.virtualenvrc
+      bash --rcfile ~/.virtualenvrc
+    else
+        echo "Directory $CODE_DIR/$env_name does not exist"
+    fi
 }
