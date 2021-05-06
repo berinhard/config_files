@@ -12,7 +12,7 @@ sudo apt update -y
 sudo apt upgrade -y
 
 echo -e '\n>>>>>>>>>> Installing base packages\n'
-sudo apt install terminator zsh vim vim-gtk3 git gitk gitg synaptic python3-dev python3-pip gnome-tweaks ack npm postgresql postgresql-client libpq-dev vlc rhythmbox make build-essential libsqlite3-dev curl xclip libcanberra-gtk-module keepassx htop libssl-dev zlib1g-dev libbz2-dev git-gui cmake wget default-jre default-jre-headless libffi-dev liblzma-dev python3-tk direnv ffmpeg tk-dev libavcodec-extra -y
+sudo apt install terminator zsh vim vim-gtk3 git gitk gitg synaptic python3-dev python3-pip gnome-tweaks ack npm postgresql postgresql-client libpq-dev vlc rhythmbox make build-essential libsqlite3-dev curl xclip libcanberra-gtk-module keepassx htop libssl-dev zlib1g-dev libbz2-dev git-gui cmake wget default-jre default-jre-headless libffi-dev liblzma-dev python3-tk direnv ffmpeg tk-dev libavcodec-extra pavucontrol libxcb-xtest0 -y
 sudo pip3 install virtualenv virtualenvwrapper
 
 # Install pyenv
