@@ -167,3 +167,6 @@ eval "$(pyenv init -)"
 # find DIR_PATH -type d -exec chmod 755 {} +
 
 SKETCHBOOK_DIR="/home/bernardo/envs/pyp5js/docs/examples/"
+PYTHONBREAKPOINT='ipdb.set_trace'
+
+git config --global alias.pr '!f() { git fetch -fu ${2:-origin} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f'
