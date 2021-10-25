@@ -171,6 +171,8 @@ PYTHONBREAKPOINT='ipdb.set_trace'
 
 git config --global alias.pr '!f() { git fetch -fu ${2:-origin} refs/pull/$1/head:pr/$1 && git checkout pr/$1; }; f'
 
+alias pycharm="pycharm &> /dev/null"
+
 pr-branch() {
   if [ -z "$1" ]; then echo "Missing PR Id"; else git fetch origin pull/$1/head:pr$1; fi
 }
